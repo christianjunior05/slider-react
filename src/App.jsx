@@ -1,3 +1,7 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const data = [
   {
     image: "/images/jordan.jpeg",
@@ -17,6 +21,7 @@ function App() {
   return (
     <div className="h-screen bg-slate-800 pt-10">
       <div className="h-[400px] w-3/4 m-auto border">
+      <Slider>
         {
           data.map((item, index) => {
             return (
@@ -31,6 +36,7 @@ function App() {
             );
           })
         }
+        </Slider>
       </div>
     </div>
   );
