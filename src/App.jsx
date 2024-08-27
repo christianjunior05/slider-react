@@ -4,12 +4,12 @@ const data = [
     title : 'Micheal jordan ',
   }
   {
-    image: '/images/ljales.jpeg',
+    image: '/images/ljames.jpeg',
     title : 'Lebron James ',
   }
   {
-    image: '/images/jordan.jpeg',
-    title : 'Micheal jordan ',
+    image: '/images/giannis.jpeg',
+    title : 'Giannis Antetokoumpo ',
   }
 ]
 
