@@ -26,10 +26,18 @@ const data = [
 ];
 
 function App() {
+
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div className="h-screen bg-slate-800 pt-10">
       <div className="h-[400px] w-3/4 m-auto border">
-      <Slider>
+      <Slider {...settings}>
         {
           data.map((item, index) => {
             return (
