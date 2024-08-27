@@ -15,6 +15,10 @@ const data = [
     image: "/images/giannis.jpeg",
     title: "Giannis Antetokoumpo ",
   },
+  {
+    image: "/images/noviski.jpeg",
+    title: "Nowiszki  ",
+  },
 ];
 
 function App() {
