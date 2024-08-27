@@ -1,12 +1,11 @@
-import Slider from "./components/Slider/slider"
+
 
 function App() {
-  return 
+  return (
+    <div className="h-auto bg-red">
     
-    <Slider>
-    
-    
-  
+    </div>
+  )
 }
 
 export default App
