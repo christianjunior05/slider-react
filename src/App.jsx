@@ -22,7 +22,7 @@ function App() {
             return (
               <div key={index}>
                 <div>
-                  <img src={item.image} className="w-40 h-40 object-contain" />
+                  <img src={item.image} className="w-60 h-60 object-contain" />
                 </div>
                 <div className="p-6 bg-blue-500">
                   <p className="font-semibold text-white">{item.title}</p>
