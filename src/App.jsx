@@ -2,11 +2,11 @@ const data = [
   {
     image: '/images/jordan.jpeg',
     title : 'Micheal jordan ',
-  }
+  },
   {
     image: '/images/ljames.jpeg',
     title : 'Lebron James ',
-  }
+  },
   {
     image: '/images/giannis.jpeg',
     title : 'Giannis Antetokoumpo ',
@@ -15,8 +15,8 @@ const data = [
 
 function App() {
   return (
-    <div className="h-auto bg-red">
-    
+    <div className="h-screen bg-red-500">
+    <div className="h-[400px] w-3/4 m-auto border">Hello</div>
     </div>
   )
 }
