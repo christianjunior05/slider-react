@@ -25,7 +25,7 @@ function App() {
                   <img src={item.image} className="w-40 h-40 object-contain" />
                 </div>
                 <div>
-                  <p>{item.title}</p>
+                  <p className="font-semibold text-white">{item.title}</p>
                 </div>
               </div>
             );
