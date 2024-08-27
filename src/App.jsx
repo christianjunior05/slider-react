@@ -17,7 +17,11 @@ const data = [
   },
   {
     image: "/images/noviski.jpeg",
-    title: "Nowiszki  ",
+    title: "Nowiszki",
+  },
+  {
+    image: "/images/kyrie.jpeg",
+    title: "Kyrie Irving",
   },
 ];
 
