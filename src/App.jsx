@@ -22,7 +22,7 @@ function App() {
             return (
               <div key={index}>
                 <div>
-                  <img src={item.image} alt={`Image ${index}`} />
+                  <img src={item.image} className="w-40 h-40 object-contain" />
                 </div>
               </div>
             );
