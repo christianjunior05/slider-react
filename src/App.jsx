@@ -15,7 +15,7 @@ const data = [
 
 function App() {
   return (
-    <div className="h-screen bg-red-500">
+    <div className="h-screen bg-slate-800 pt-10">
     <div className="h-[400px] w-3/4 m-auto border">Hello</div>
     </div>
   )
