@@ -31,17 +31,17 @@ function App() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
   return (
-    <div className="h-screen bg-slate-800 pt-10">
+    <div className="h-screen bg-slate-700 pt-20">
       <div className="h-[400px] w-3/4 m-auto border">
       <Slider {...settings}>
         {
           data.map((item, index) => {
             return (
-              <div key={index}>
+              <div key={index} className="bg-white">
                 <div>
                   <img src={item.image} className="w-60 h-60 object-contain" />
                 </div>
